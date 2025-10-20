@@ -25,7 +25,8 @@
       <div class="row">
         <div class="col-lg-5 col-md-6">
           <div class="mb-2">
-            <img class="w-100" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
+            {{ $image := resources.Get "images/me.jpg" }}
+            <img class="w-100" src="{{ $image.RelPermalink }}" alt="">
           </div>
           <div class="mb-2 d-flex">
             <h4 class="font-weight-normal">Yue Li</h4>
@@ -34,15 +35,15 @@
             <ul class="list-unstyled">
               <li class="media">
                 <span class="w-25 text-black font-weight-normal">Language:</span>
-                <label class="media-body">Scala and Rust developer</label>
+                <label class="media-body">Chinese, English</label>
               </li>
               <li class="media">
-                <span class="w-25 text-black font-weight-normal">Tools:</span>
-                <label class="media-body">Appache Pekko, Appache Doris, Flink, Kafka, Jenkins, Kubernetes, Github, Postgresql, Redis, Cats, Cats-effect, Axum, Polars, Leptos</label>
+                <span class="w-25 text-black font-weight-normal">Residence Country:</span>
+                <label class="media-body">Netherlands</label>
               </li>
               <li class="media">
-                <span class="w-25 text-black font-weight-normal">Certification: </span>
-                <label class="media-body">Certified Kubernetes Administrator, Certified Scrum Master</label>
+                <span class="w-25 text-black font-weight-normal">Hobby: </span>
+                <label class="media-body">Gamer, Basketball, Music, Traveling</label>
               </li>
               <!-- <li class="media">
                 <span class="w-25 text-black font-weight-normal">github: </span>
@@ -57,11 +58,11 @@
         </div>
         <div class="col-lg-10 col-md-9 pl-xl-3">
           <h5 class="font-weight-normal">Experience</h5>
-          <p>Along with your plans, you should consider developing an action orientation that will keep you motivated to move forward at all times. This requires a little self-discipline, but is a crucial component to achievement of any kind. Before starting any new activity, ask yourself if that activity will move you closer to your goals. If the answer is no, you may want to reconsider doing it at that time.</p>
-          <div class="my-2 bg-light p-2">
+          <p>10 years experience with backend developer, mainly use scala sometimes rust. Experienced in high performance web-development, hight throughput message system.</p>
+          <!-- <div class="my-2 bg-light p-2">
             <p class="font-italic mb-0">The price is something not necessarily defined as financial. It could be time, effort, sacrifice, money or perhaps, something else.</p>
-          </div>
-          <ul class="list list-unstyled mb-3">
+          </div> -->
+          <!-- <ul class="list list-unstyled mb-3">
             <li class="text-secondary font-weight-normal mb-1">
               <span class="ti-arrow-right pr-1 text-primary"></span>
               Commitment is something that comes from understanding that!
@@ -78,9 +79,14 @@
               <span class="ti-arrow-right pr-1 text-primary"></span>
               This is important because nobody wants to put significant.
             </li>
-          </ul>
-          <h5 class="font-weight-normal">Personal Experience</h5>
-          <p>It is truly amazing the damage that we, as parents, can inflict on our children. So why do we do it? For the most part, we don’t do it intentionally or with malice. In the majority of cases, the cause is a well-meaning but unskilled or un-thinking parent, who says the wrong thing at the wrong time, and the message sticks – as simple as that!</p>
+          </ul> -->
+          <h5 class="font-weight-normal">Languages and Certifications</h5>
+          <p>Scala and Rust developer, Certified Kubernetes Administrator, Certified Scrum Master</p>
+          <h5 class="font-weight-normal">Frameworks</h5>
+          <p>Pekko, Pekko-http, Pekko-stream, Finagle, Http4s, Cats, Cats-effect</p>
+          <p>Axum, Leptos, Polars, Crossbeam</p>
+          <p>Kafka, Doris, Postgresql, Redis</p>
+          <p>Git, Jenkins, Gitlab, Docker, Kubernetes</p>
           <!-- <div class="mb-2 mt-2 pt-1">
             <h5 class="font-weight-normal">Skill</h5>
           </div> -->
