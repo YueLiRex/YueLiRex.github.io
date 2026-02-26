@@ -12,17 +12,17 @@ importers:
         specifier: ^3.34.1
         version: 3.35.0
       '@thulite/doks-core':
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.3
+        version: 1.9.3
       '@thulite/images':
-        specifier: ^3.3.1
-        version: 3.3.3
+        specifier: ^3.3.4
+        version: 3.3.4
       '@thulite/inline-svg':
         specifier: ^1.2.0
         version: 1.2.1
       '@thulite/seo':
-        specifier: ^2.4.1
-        version: 2.4.2
+        specifier: ^2.4.3
+        version: 2.4.3
       thulite:
         specifier: ^2.6.3
         version: 2.6.3
@@ -940,28 +940,28 @@ packages:
   '@tabler/icons@3.35.0':
     resolution: {integrity: sha512-yYXe+gJ56xlZFiXwV9zVoe3FWCGuZ/D7/G4ZIlDtGxSx5CGQK110wrnT29gUj52kEZoxqF7oURTk97GQxELOFQ==}
 
-  '@thulite/bootstrap@1.2.2':
-    resolution: {integrity: sha512-u3gIB6CT4LR32XrT63rdFkKcmWna0msYqdlzLdU10emlU6yMCVlfHVdQuGQSCUJN2Q38Sxm+Nv4/AU1Z52Zy0g==}
+  '@thulite/bootstrap@1.2.3':
+    resolution: {integrity: sha512-230kXC1QwBESDP2ye7hlfVs6OHvLFKxlb9NJxjTLzMnE5cDGTjR3Tf+2PQftVERBmItpgXTL559ZE3zo6CKZSw==}
     engines: {node: '>=20.11.0'}
 
   '@thulite/core@1.5.5':
     resolution: {integrity: sha512-lnCPoMFw3I8fg7Ef8f1SlERf9r3wivxzBeKQ4xSypESfXp6r6K3YEgU+N0IjJsA1wpaJ0f2qOIOPxMz6/bPMPA==}
     engines: {node: '>=20.11.0'}
 
-  '@thulite/doks-core@1.8.3':
-    resolution: {integrity: sha512-qGPlWACP40PDbhQdjK/n5Vmjd72K47qHt0Wtb3l9PeXAl+QYHyghedZuoJIZcehwC17fqiSuwThY5M9A1DABgw==}
+  '@thulite/doks-core@1.9.3':
+    resolution: {integrity: sha512-K4BssyW7LwA19fz628kkdWb9p+DMq1LawmkegNEHkXnz7kecO3lVldk/Yn5mm9Ib6tv32ECA61BQxefDD9XokQ==}
     engines: {node: '>=20.11.0'}
 
-  '@thulite/images@3.3.3':
-    resolution: {integrity: sha512-68cjGRJsNgTsUHK0eRTBnefKFjjDnz+0rK5z+Vx0P09d6MUsgKiSng1Wx4zS1wIeO9dRYHqZ0d9t8uOGK9KM7w==}
+  '@thulite/images@3.3.4':
+    resolution: {integrity: sha512-l7fYyBFiiZWgFkaBLkINDrzDZ+KXTxWnvhTVPPEysL+TexzEubTY7b5s00iQoFZsUg4m+6flbYxZSupydFrEHg==}
     engines: {node: '>=20.11.0'}
 
   '@thulite/inline-svg@1.2.1':
     resolution: {integrity: sha512-b6FL896o59Tv4rTTb6KZEHniSRJImphkeC9KJU/vLLIRgL2xgNZcF2XxSiebjoqK7UtWEA1qNPhxIGxZi3mqVw==}
     engines: {node: '>=20.11.0'}
 
-  '@thulite/seo@2.4.2':
-    resolution: {integrity: sha512-PP9DF2KDQ+fCZbkKfBz9scMxYLWhfBQ5w84man/HGLZl5P8OfQu4hXJkkEmkacfRnaTLn9b7Z72IUJ480Km42w==}
+  '@thulite/seo@2.4.3':
+    resolution: {integrity: sha512-1Y8PJXjGQBoB+VgcC3+RiPxGyI0VshBgufloOtPGlolB+K+qSMY9SPla1mL2HzkLbteb2W9+9CktS7CA/f90Rg==}
     engines: {node: '>=20.11.0'}
 
   '@types/estree@1.0.8':
@@ -1029,6 +1029,9 @@ packages:
   baseline-browser-mapping@2.8.16:
     resolution: {integrity: sha512-OMu3BGQ4E7P1ErFsIPpbJh0qvDudM/UuJeHgkAvfWe+0HFJCXh+t/l8L6fVLR55RI/UbKrVLnAXZSVwd9ysWYw==}
     hasBin: true
+
+  basiclightbox@5.0.4:
+    resolution: {integrity: sha512-EsuNWmfcFXWZOe0txKXsllYOC7bDpoaVLc4HHHlYKB/roymlZs+FBdLUU6rx2yPpnJZhulwheKdPjqr2k0+NGQ==}
 
   better-path-resolve@1.0.0:
     resolution: {integrity: sha512-pbnl5XzGBdrFU/wT4jqmJVPn2B6UHPBOhzMQkY/SPUPB6QtUXtmBHBIwCbXJol93mOpGMnQyP/+BB19q04xj7g==}
@@ -2982,7 +2985,7 @@ snapshots:
 
   '@tabler/icons@3.35.0': {}
 
-  '@thulite/bootstrap@1.2.2':
+  '@thulite/bootstrap@1.2.3':
     dependencies:
       '@popperjs/core': 2.11.8
       bootstrap: 5.3.8(@popperjs/core@2.11.8)
@@ -3007,17 +3010,18 @@ snapshots:
       - supports-color
       - tsx
 
-  '@thulite/doks-core@1.8.3':
+  '@thulite/doks-core@1.9.3':
     dependencies:
-      '@thulite/bootstrap': 1.2.2
+      '@thulite/bootstrap': 1.2.3
+      basiclightbox: 5.0.4
       clipboard: 2.0.11
       flexsearch: 0.8.212
 
-  '@thulite/images@3.3.3': {}
+  '@thulite/images@3.3.4': {}
 
   '@thulite/inline-svg@1.2.1': {}
 
-  '@thulite/seo@2.4.2': {}
+  '@thulite/seo@2.4.3': {}
 
   '@types/estree@1.0.8': {}
 
@@ -3083,6 +3087,8 @@ snapshots:
   balanced-match@1.0.2: {}
 
   baseline-browser-mapping@2.8.16: {}
+
+  basiclightbox@5.0.4: {}
 
   better-path-resolve@1.0.0:
     dependencies:
