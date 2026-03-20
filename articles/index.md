@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Yue's notes"
-  text: "This is my technical notes site"
-  tagline: My great project tagline
+  name: "Welcome to"
+  text: "My tech notes site"
+  tagline: I am sharing my learnings, thoughts, ideas here.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Who am I?
+      link: /who-am-i
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Articles
+      link: /articles
 
 features:
-  - title: Feature A
+  - title: Project 1
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Project 2
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Project 3
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
