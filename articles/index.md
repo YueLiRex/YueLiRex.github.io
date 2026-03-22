@@ -15,7 +15,8 @@ hero:
       link: /articles
 
 features:
-  - title: Project 1
+  - title: Alpaca-trade-api-rust
+    link: https://github.com/YueLiRex/alpaca-trade-api-rust
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Project 2
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

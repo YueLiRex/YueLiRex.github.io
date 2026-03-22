@@ -39,7 +39,7 @@ export default defineConfig({
       {
         text: 'Devops',
         items: [
-          { text: 'An Usecase of K8S webhook', link: '/rust' },
+          { text: 'Cross namespace configuration sharing in kubernetes', link: '/devops/cross-namespace-configuration-sharing-in-kubernetes/Cross-Namespace.md' },
         ]
       },
       {
