@@ -1,85 +1,20 @@
-# Markdown Extension Examples
+---
+layout: doc
+---
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+# Articles
 
-## Syntax Highlighting
+Everything on the site, grouped by topic.
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+## Rust
 
-**Input**
+- [Everything about Rust ownership](/rust/rust-ownership-explained)
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+## Data Engineering
 
-**Output**
+- [Introduce to Apache Iceberg](/data-engineering/apache-iceberg-introduction/apache-iceberg-introduction)
+- [Apache Hudi 101](/data-engineering/apache-hudi-101/apache-hudi-101)
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+## DevOps
 
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+- [Cross namespace configuration sharing in kubernetes](/devops/cross-namespace-configuration-sharing-in-kubernetes/Cross-Namespace)

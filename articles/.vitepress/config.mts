@@ -20,12 +20,14 @@ export default defineConfig({
       {
         text: 'Rust',
         items: [
+          { text: 'Overview', link: '/rust/' },
           { text: 'Everything about Rust ownership', link: '/rust/rust-ownership-explained' },
         ]
       },
       {
         text: 'Data Engineering',
         items: [
+          { text: 'Overview', link: '/data-engineering/' },
           { text: 'Introduce to Apache Iceberg', link: '/data-engineering/apache-iceberg-introduction/apache-iceberg-introduction' },
           { text: 'Apache Hudi 101', link: '/data-engineering/apache-hudi-101/apache-hudi-101' },
         ]
@@ -33,6 +35,7 @@ export default defineConfig({
       {
         text: 'Devops',
         items: [
+          { text: 'Overview', link: '/devops/' },
           { text: 'Cross namespace configuration sharing in kubernetes', link: '/devops/cross-namespace-configuration-sharing-in-kubernetes/Cross-Namespace' },
         ]
       },
