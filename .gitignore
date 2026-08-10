@@ -129,6 +129,9 @@ dist
 # pnpm
 .pnpm-store
 
+.DS_Store
+CLAUDE.md
+
 # yarn v3
 .pnp.*
 .yarn/*

@@ -24,28 +24,16 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Scala',
-        items: [
-          { text: 'Introduce to Cats-effect', link: '/scala/' },
-        ]
-      },
-      {
         text: 'Data Engineering',
         items: [
-          { text: 'Introduce to Apache Iceberg', link: '/rust' },
-          { text: 'Apache Hudi 101', link: '/scala' },
+          { text: 'Introduce to Apache Iceberg', link: '/data-engineering/apache-iceberg-introduction/apache-iceberg-introduction' },
+          { text: 'Apache Hudi 101', link: '/data-engineering/apache-hudi-101/apache-hudi-101' },
         ]
       },
       {
         text: 'Devops',
         items: [
-          { text: 'Cross namespace configuration sharing in kubernetes', link: '/devops/cross-namespace-configuration-sharing-in-kubernetes/Cross-Namespace.md' },
-        ]
-      },
-      {
-        text: 'Interesting Projects',
-        items: [
-          { text: 'Golang rest framework - Hertz', link: '/rust' },
+          { text: 'Cross namespace configuration sharing in kubernetes', link: '/devops/cross-namespace-configuration-sharing-in-kubernetes/Cross-Namespace' },
         ]
       },
     ],
