@@ -147,4 +147,3 @@ vite.config.ts.timestamp-*
 .vite/
 
 package-lock.json
-pnpm-lock.yaml

@@ -1,3 +1,7 @@
+---
+layout: doc
+---
+
 # The Challenge: Cross-Namespace Configuration Sharing in Kubernetes
 When managing multiple applications on Kubernetes, the standard practice is to group them by use-case or functionality into **Namespaces**. This works perfectly for sharing `ConfigMaps` or `Secrets` within that specific boundary.
 
