@@ -22,6 +22,7 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '/rust/' },
           { text: 'Everything about Rust ownership', link: '/rust/rust-ownership-explained' },
+          { text: 'How to choose correct smart pointer', link: '/rust/how-to-choose-correct-smart-pointers' },
         ]
       },
       {
