@@ -9,12 +9,17 @@ Everything on the site, grouped by topic.
 ## Rust
 
 - [Everything about Rust ownership](/rust/rust-ownership-explained)
+- [How to choose correct smart pointer](/rust/how-to-choose-correct-smart-pointers)
 
 ## Data Engineering
 
 - [Introduce to Apache Iceberg](/data-engineering/apache-iceberg-introduction/apache-iceberg-introduction)
 - [Apache Hudi 101](/data-engineering/apache-hudi-101/apache-hudi-101)
 
+## Development
+
+- [Microservice: the full picture](/development/micro-service-full-picture)
+
 ## DevOps
 
-- [Cross namespace configuration sharing in kubernetes](/devops/cross-namespace-configuration-sharing-in-kubernetes/Cross-Namespace)
+Nothing published yet — see the [DevOps overview](/devops/).

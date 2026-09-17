@@ -6,6 +6,9 @@ hero:
   name: "Yue's Tech Notes"
   text: "Rust, Scala, Java, data engineering, and the Kubernetes plumbing in between."
   tagline: Working notes on what I'm learning — written down so I remember it, shared in case it helps you too.
+  image:
+    src: /avatar.jpg
+    alt: Yue Li
   actions:
     - theme: brand
       text: Read the notes
@@ -25,6 +28,11 @@ features:
     details: Lakehouse table formats — Iceberg, Hudi, and how they actually behave under load.
     link: /data-engineering/
     linkText: Read data notes
+  - icon: 🧩
+    title: Development
+    details: Architecture notes — how the pieces of a system fit together once there is more than one of them.
+    link: /development/
+    linkText: Read development notes
   - icon: ☸️
     title: DevOps
     details: Kubernetes in practice — config, namespaces, and the plumbing nobody documents.

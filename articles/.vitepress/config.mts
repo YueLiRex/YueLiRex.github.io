@@ -34,10 +34,16 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Development',
+        items: [
+          { text: 'Overview', link: '/development/' },
+          { text: 'Microservice: the full picture', link: '/development/micro-service-full-picture' },
+        ]
+      },
+      {
         text: 'Devops',
         items: [
           { text: 'Overview', link: '/devops/' },
-          { text: 'Cross namespace configuration sharing in kubernetes', link: '/devops/cross-namespace-configuration-sharing-in-kubernetes/Cross-Namespace' },
         ]
       },
     ],
